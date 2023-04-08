@@ -11,5 +11,5 @@ ffmpeg -i "<playlist>" -c copy -bsf:a aac_adtstoasc output.mp4
 - convert .ts to .mp4
 
 ```
-ffmpeg -i all.ts -vcodec libx264 -acodec aac output.mp4
+ffmpeg -i input.ts -vcodec libx264 -acodec aac output.mp4
 ```
